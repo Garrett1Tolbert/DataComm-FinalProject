@@ -30,6 +30,6 @@ with open('received_file', 'wb') as f:
 recv_time_ms = time.time()
 rtt_in_ms = round(recv_time_ms - send_time_ms, 6)
 
-print('RTT: ' + str(rtt_in_ms))
+print('RTT: ' + str(rtt_in_ms) + 'ms')
 s.close()
 print('connection closed')
